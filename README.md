@@ -26,3 +26,10 @@ Possible future expansions:
 * Support for adding incidents
 * Support for adding forms
 * Support for removing forms (requiring proper authorization)
+
+
+
+
+
+!\[Sign-In Screen](FigmaProto/SignInScreen.png) !\[Evidence Screen](FigmaProto/EvidenceScreen.png) !\[Submit Evidence](FigmaProto/EvidenceSubmit.png)
+
