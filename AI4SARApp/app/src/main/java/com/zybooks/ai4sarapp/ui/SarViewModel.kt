@@ -2,7 +2,6 @@ package com.zybooks.ai4sarapp.ui
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
@@ -14,7 +13,6 @@ import androidx.lifecycle.viewmodel.viewModelFactory
 import com.zybooks.ai4sarapp.SarApplication
 import com.zybooks.ai4sarapp.data.AuthResponse
 import com.zybooks.ai4sarapp.data.FormDocument
-import com.zybooks.ai4sarapp.data.IncidentData
 import com.zybooks.ai4sarapp.data.IncidentDocument
 import com.zybooks.ai4sarapp.data.SarRepository
 import kotlinx.coroutines.Dispatchers
