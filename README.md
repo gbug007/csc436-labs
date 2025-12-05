@@ -31,5 +31,5 @@ Possible future expansions:
 
 
 
-!\[Sign-In Screen](FigmaProto/SignInScreen.png) !\[Evidence Screen](FigmaProto/EvidenceScreen.png) !\[Submit Evidence](FigmaProto/EvidenceSubmit.png)
+![Sign-In Screen](FigmaProto/SignInScreen.png) ![Evidence Screen](FigmaProto/EvidenceScreen.png) ![Submit Evidence](FigmaProto/EvidenceSubmit.png)
 
