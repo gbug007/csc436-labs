@@ -28,7 +28,7 @@ The architecture is standard as we learned in class for Retrofit, although I put
 
 
 ## Figma design:
-![Sign-In Screen](/FigmaProto/SignInScreen.png) ![Evidence Screen](/FigmaProto/EvidenceScreen.png) ![Submit Evidence](FigmaProto/EvidenceSubmit.png)
+![Sign-In Screen](/FigmaProto/SignInScreen.png) ![Evidence Screen](/FigmaProto/EvidenceScreen.png) ![Submit Evidence](/FigmaProto/EvidenceSubmit.png)
 
 
 ## Features used/Dependencies:
