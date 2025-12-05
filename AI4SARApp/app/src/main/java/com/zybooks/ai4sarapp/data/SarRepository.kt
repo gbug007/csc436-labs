@@ -49,10 +49,21 @@ class SarRepository(
     suspend fun logout(
     ): Response<AuthResponse> {
         val request = LogOutRequest(uid?:"")
-        val response: Response<AuthResponse> = service.logOut(request)
+        val response = service.logOut(request)
         token = null
         uid = null
         return response
+    }
+
+    suspend fun getIncidents(
+    ): List<IncidentDocument> {
+        val auth = "Bearer $token"
+        return service.getIncidents(auth)
+    }
+
+    suspend fun getFormsForIncident(incidentId: String): List<FormDocument> {
+        val auth = "Bearer $token"
+        return service.getFormsForIncident(auth, incidentId)
     }
 
 }

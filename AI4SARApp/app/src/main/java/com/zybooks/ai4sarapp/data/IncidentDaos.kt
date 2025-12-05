@@ -52,3 +52,8 @@ data class IncidentData(
 
     val photoURL: String? = null
 )
+
+data class FormDocument(
+    val id: String,
+    val data: Map<String, JsonElement> // or a strongly-typed FormData if you know fields
+)

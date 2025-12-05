@@ -5,6 +5,7 @@ import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.POST
+import retrofit2.http.Path
 
 
 interface SarService {
@@ -30,5 +31,11 @@ interface SarService {
     suspend fun getIncidents(
         @Header("Authorization") auth: String
     ): List<IncidentDocument>
+
+    @GET("incidents/{incidentId}/forms")
+    suspend fun getFormsForIncident(
+        @Header("Authorization") auth: String,
+        @Path("incidentId") incidentId: String
+    ): List<FormDocument>
 
 }
