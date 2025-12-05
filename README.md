@@ -2,7 +2,7 @@ Lab1 is gone for some reason.
 
 
 
-\### Project Notes
+# Project Notes
 
 
 
